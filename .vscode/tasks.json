@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type":"shell",
+			"command": "rm -rf public/js/ | npm run dev",
+			"label": "build javascript files",
+		}
+	]
+}
