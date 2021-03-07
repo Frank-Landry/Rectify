@@ -12,8 +12,9 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .js(['resources/js/darkmode.js'], 'public/js/main.js').postCss('resources/css/app.css', 'public/css', [
-        require('postcss-import'),
-        require('tailwindcss'),
-        require('autoprefixer'),
-    ]);
+    .js(['resources/js/darkmode.js',
+        'resources/js/editor.js'], 'public/js/main.js').postCss('resources/css/app.css', 'public/css', [
+            require('postcss-import'),
+            require('tailwindcss'),
+            require('autoprefixer'),
+        ]);
