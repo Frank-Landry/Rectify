@@ -21,6 +21,12 @@
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
+                {{-- PRICING --}}
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-nav-link :href="route('pricing')" :active="request()->routeIs('pricing')">
+                        {{ __('Pricing') }}
+                    </x-nav-link>
+                </div>
             </div>
 
             <!-- Settings Dropdown -->

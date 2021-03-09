@@ -1,5 +1,1 @@
-<div id="editor" class="text-gray-900 dark:text-white ml-10 mr-10">
-    <p>Hello World!</p>
-    <p>Some initial <strong>bold</strong> text</p>
-    <p><br></p>
-</div>
+<textarea name="edit" id="stEdit" cols="30" rows="10" class="w-1/2 h-1/2"></textarea>

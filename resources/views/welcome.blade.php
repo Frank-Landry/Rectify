@@ -43,5 +43,4 @@
             homework.
         </x-slot>
     </x-section-block>
-    <x-editor />
 </x-app-layout>
